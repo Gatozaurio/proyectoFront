@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+    grid-column: 1/13;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: 5px solid black;
+}
+
+#logo{
+    object-fit: contain;
+    grid-column: 1/5;    
+    background-color: yellow;
+}
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 5/13;
+    background-color: aqua;
+}
+#menuOptions{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+

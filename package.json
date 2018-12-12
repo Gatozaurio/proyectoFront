@@ -1,0 +1,14 @@
+{
+  "name": "proyectofront",
+  "version": "1.0.0",
+  "description": "Proyecto de las asignaturas Desarrollo web en entorno cliente y Diseño de interfaces web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Alberto Távora Romero",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
+}
