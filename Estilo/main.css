@@ -5,28 +5,71 @@ body{
 
 header{
     grid-column: 1/13;
+    background-color: #252525;
 }
 
-#header{
+.header{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    border: 5px solid black;
+    height: 10vh;
 }
 
-#logo{
-    object-fit: contain;
-    grid-column: 1/5;    
-    background-color: yellow;
+.header nav{
+    display: grid;
+    grid-column: 5/13;
 }
-#menu{
+
+.logo{
+    grid-column: 1/5;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo img{
+    height:100%;
+}
+
+.menu{
     display: flex;
     justify-content: flex-end;
-    grid-column: 5/13;
-    background-color: aqua;
+    align-items: center;
+    font-size: 25px;
+    font-family: Impact, Charcoal, sans-serif;
 }
-#menuOptions{
-    display: flex;
-    justify-content: space-around;
-    background-color: aqua;
+.menu a{
+    width: 19%;
+    text-decoration: none;
+    color: #FF9900;
+    text-align: center;
+}
+.menu a:hover{
+    width: 19%;
+    font-size: 29px;
+    color: #FF6600;
+}
+
+main{
+    display: grid;
+    grid-column: 1/13;
+}
+
+.contenido {
+    height: 80vh;
+    min-height:80vh;
+    background-color: #FFFF66;
+}
+
+footer{
+    display: grid;
+    grid-column: 1/13;
+}
+
+.footer{
+    height:10vh;
+    background-color: #252525;
+    text-align: center;
+    width: 100%;
+    font-family: Impact, Charcoal, sans-serif;
+    color:#FF9900;
 }
 
